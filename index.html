@@ -32,47 +32,47 @@ document.addEventListener('click', function(event) {
 var htmlCode = `
 
 #la3
-\\documentclass{report}
-\\usepackage{graphicx}
-\\usepackage{setspace}
-\\usepackage{geometry}
-\\newcommand{\titlepageVTU}{
-\\begin{titlepage}
-\\begin{center}
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\newcommand{\titlepageVTU}{
+\begin{titlepage}
+\begin{center}
 \\
-\\textbf{\huge Visvesvaraya Technological University}\\
-\\
-\\
-\\vspace*{1cm}
-\\includegraphics[width=0.3\textwidth]{vtu-logo.png} % VTU logo (replace with actual logo file)
+\textbf{\huge Visvesvaraya Technological University}\\
 \\
 \\
-\\vspace*{3cm}
-\\textbf{\LARGE Sapthagiri college of engineering }
-\\vspace{0.5cm}
+\vspace*{1cm}
+\includegraphics[width=0.3\textwidth]{vtu-logo.png} % VTU logo (replace with actual logo file)
+\\
+\\
+\vspace*{3cm}
+\textbf{\LARGE Sapthagiri college of engineering }
+\vspace{0.5cm}
 \\
 \Large Department of Computer Science and Engineering} % Replace with your department name
-\\vspace{2cm}
+\vspace{2cm}
 \\
 {\\huge\textbf{COVID-19}} % Replace with your project title
-\\vspace{2cm}
+\vspace{2cm}
 \\
-\\textbf{\Large by}
-\\vspace{0.5cm}
+\textbf{\Large by}
+\vspace{0.5cm}
 {\\Large XXX} % Replace with your name
-\\vfill
-\\textbf{\Large Prof. Shwetha A B} % Replace with your guide's name
-\\vspace{0.5cm}
+\vfill
+\textbf{\Large Prof. Shwetha A B} % Replace with your guide's name
+\vspace{0.5cm}
 \\
 {\\Large Your Co-guide's Name (if any)} % Replace with your co-guide's name, if any
-\\vfill
+\vfill
 {\\large 8th Semester, 2024} % Replace with semester and year
-\\end{center}
-\\end{titlepage}
+\end{center}
+\end{titlepage}
 }
-\\begin{document}
-\\titlepageVTU % Insert custom title page
-\\end{document}
+\begin{document}
+\titlepageVTU % Insert custom title page
+\end{document}
 `
 
 document.getElementById("myInput").value = htmlCode;
